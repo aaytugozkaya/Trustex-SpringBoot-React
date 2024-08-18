@@ -1,0 +1,24 @@
+.custom-right {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 100px;
+  transform: translateX(200px);
+}
+
+.currency-converter-container input,
+.currency-converter-container button,
+.currency-converter-container .result {
+  position: relative;
+}
+
+.currency-converter-container input {
+  position: relative;
+}
+
+.currency-converter-container button {
+  position: relative;
+}
+
+.currency-converter-container .result {
+  position: relative;
+}

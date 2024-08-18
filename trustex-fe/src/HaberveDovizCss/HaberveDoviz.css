@@ -1,0 +1,43 @@
+.table-haber-container {
+    position: absolute;
+    top: -1400px;
+    left: 450px;
+    width: 100%;
+}
+
+.table-haber {
+    width: 100%;
+}
+
+.table-haber th,
+.table-haber td {
+    padding: 10px;
+}
+
+.table-haber tr {
+    line-height: 1.5em;
+
+    .table-haber tr.custom-height {
+        height: 50px;
+    }
+
+
+
+    .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        width: 800px;
+        height: 660px;
+        background-color: #062065;
+        color: white;
+        padding: 50px;
+        border-radius: 4px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+        overflow: hidden;
+    }
+}

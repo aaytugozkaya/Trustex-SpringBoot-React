@@ -1,0 +1,22 @@
+.table-data {
+  position: absolute;
+  top: 1550px;
+  left: 575px;
+}
+
+.table-data {
+  width: 40%;
+}
+
+.table-data th,
+.table-data td {
+  padding: 10px;
+}
+
+.table-data tr {
+  line-height: 0.1em;
+}
+
+.table-data tr.custom-height {
+  height: 50px;
+}

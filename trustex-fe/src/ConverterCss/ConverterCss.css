@@ -1,0 +1,24 @@
+.custom-container {
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1000px;
+  height: 400px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  padding: 20px;
+  z-index: 10;
+}
+
+.custom-typography {
+  position: absolute;
+  top: 320px;
+  left: 750px;
+  transform: translateX(-50%);
+  color: #db0000;
+  z-index: 10;
+  width: 1400px;
+  font-size: 0.3rem;
+}

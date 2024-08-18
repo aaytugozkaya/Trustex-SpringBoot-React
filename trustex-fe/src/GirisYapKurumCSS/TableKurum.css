@@ -1,0 +1,19 @@
+.table-data-kurum {
+  position: relative;
+  top: -760px;
+  left: 200px;
+  width: 40% !important;
+}
+
+.table-data-kurum th,
+.table-data-kurum td {
+  padding: 10px;
+}
+
+.table-data-kurum tr {
+  line-height: 0.1em;
+}
+
+.table-data-kurum tr.custom-height {
+  height: 50px;
+}

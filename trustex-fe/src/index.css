@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* src/index.css veya src/App.css */
+.custom-position {
+  position: absolute;
+  top: 20px; /* Yukarıdan 20px boşluk */
+  right: -5px; /* Sağdan -50px boşluk, bu tablonuzu sağa kaydırır */
+  width: auto; /* Genişliği otomatik bırak */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

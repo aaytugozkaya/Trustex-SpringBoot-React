@@ -1,0 +1,19 @@
+.table-data-birey {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  width: 40%;
+}
+
+.table-data-birey th,
+.table-data-birey td {
+  padding: 10px;
+}
+
+.table-data-birey tr {
+  line-height: 0.1em;
+}
+
+.table-data.-birey tr.custom-height {
+  height: 50px;
+}

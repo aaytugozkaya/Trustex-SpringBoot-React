@@ -1,0 +1,122 @@
+.assets-page-container {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px 20px 20px;
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    height: 100vh;
+}
+
+.customer-info {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.left-panel {
+    width: 35%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.left-panel h3 {
+    margin-bottom: 20px;
+}
+
+.balance-info {
+    margin-top: 20px;
+}
+
+.balance-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.balance-item h4 {
+    margin: 0;
+    margin-right: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50;
+}
+
+.balance-item span {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+.cards-body {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.search-container input {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pagination span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.header-container {
+    background-color: #001f3f;
+    border-radius: 0px;
+    margin: 0;
+}
